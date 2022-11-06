@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+*{
+    font-family: 'Bebas Neue', cursive;
+    
+}
+.section1{
+    background-image: url(Rectangle.png);
+    background-size: cover;
+    height: 700px;
+    font-family: 'Bebas Neue', cursive;
+    
+
+    
+    
+}
+
+
+.text{
+    text-align: end;
+}
+
+.navbar-nav{
+    letter-spacing: 6px;
+    font-size: 21px;
+   
+    
+}
+
+
+h2{
+    font-size: 25px;
+    border: dashed  #3d2514;
+    width: 457px;
+    padding-top: 17px;
+    padding-bottom: 18px;
+    padding-left: 22px;
+    padding-right: 20px;
+    margin-top: 40px;
+}
+
+.fontchange1{
+ font-family: 'Alfa Slab One', cursive;
+ font-size: 130px;
+ text-shadow: 4px 4px white ;
+ color: #3d2514;
+}
+
+.fontchange2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 75px;
+    line-height: 27px;
+    text-shadow: 4px 4px white ;
+ color: #3d2514;
+   }
+
+   .img{
+   position: relative;
+   bottom: 72px;
+   width: 619px;
+ margin-top: 40px;
+   
+    
+   }
+
+
+
+
+   /**/
+
+   .back1{
+    background-image: url(BurgerImage.png);
+    height: 420px;
+    width: 596px;
+   
+
+   }
+
+  
+
+   .back2{
+    background-image: url(Image.png);
+    width: 596px;
+    background-repeat: no-repeat;
+
+   }
+
+   .back3{
+    background-image: url(i.png);
+    background-repeat: no-repeat;
+    height: 192px;
+    width: 596px;
+    margin-top: 70px;
+   
+   }
+
+
+   .section2{
+    width: 1234px;
+    margin-top: 78px;
+   }
+
+   .txt1{
+    font-size: 25px;
+    color: white;
+    padding-top: 35px;
+    padding-left: 25px;
+   }
+
+
+   .txt2{
+    font-size: 45px;
+    color: white;
+    padding-left: 25px;
+    line-height: 20px;
+   }
+
+   .txt3{
+    font-size: 25px;
+    color: white;
+    padding-top: 35px;
+    padding-left: 25px;
+   }
+
+   .txt4{
+    font-size: 45px;
+    color: white;
+    padding-left: 25px;
+    line-height: 40px;
+   }
+
+
+   /**/
+
+   .button{
+    width: 221px;
+    height: 51px;
+    border-radius: 0;
+    font-size: 20px;
+    background-color: rgba(255, 192, 69, 1);
+    padding: 15px 22px;
+    color: #3D2514;
+    border: none;
+    margin-top: 71px;
+    margin-bottom: 39px;
+    line-height: 19px;
+    
+   }
+
+
+   /**/
+
+   .heading{
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3D2514;
+    padding-bottom: 32px;
+   }
+
+   .para{
+    font-size: 17px;
+    font-family: 'montserrat';
+    color: #3D2514;
+    padding-bottom: 54px;
+   }
+
+   .card{
+    border: none;
+   }
+
+   .card-title{
+    font-size: 38px;
+    color: #3D2514;
+    text-align: center;
+   }
+
+   .card-text ,.para1{
+    font-size: 14px;
+    color: #3D2514;
+    text-align: center;
+    font-family: 'montserrat';
+   }
+
+   .midimg{
+    width: 353px;
+    height: 233px;
+   }
+
+   .card-footer {
+    border: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: none;
+}
+
+   .btn ,.btn:hover{
+    font-size: 15px;
+    font-family: 'Alfa Slab One', cursive;
+    background-color: #bf2222;
+    color: white;
+    border-radius: 0;
+    padding: 0;
+    padding: 11px 19px;
+    font-weight: normal;
+    
+   }
+
+ 
+   #section2{
+    /* padding-top: 156px; */
+    margin-top: 126px;
+    /* background-color: #bf2222; */
+    border: 1px solid white;
+  padding: 10px;
+box-shadow: 0px 10px 8px 10px #888888;
+
+   }
+
+   .discover{
+    font-size: 29px;
+    color: #3D2514;
+   }
+
+   .up{
+    font-size: 49px;
+    color: #3D2514;
+    font-family: 'Alfa Slab One', cursive;
+
+   }
+
+   h4{
+    font-size: 21px;
+    font-family: 'montserrat';
+    color: #3D2514;
+    
+   }
+
+  .carousel-inner{
+    padding-top: 63px;
+    padding-left: 53px;
+  }
+
+
+  .carousel-indicators [data-bs-target] {
+    position: relative;
+    left: -200px;
+    top: 70px;
+
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #da8301;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}
+
+/**/
+
+.sectionback{
+    background-image: url(bkk.png);
+    background-size: cover;
+    height: 120vh;
+    font-family: 'Bebas Neue', cursive;
+ 
+}
+
+
+h5{
+    font-size: 29px;
+    font-family: 'Bebas Neue', cursive;
+    color: #3D2514;
+}
+
+h6{
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3D2514;
+    padding-bottom:89px ;
+}
+
+input{
+    height: 68px;
+    width: 382px;
+    margin-top: 27px;
+}
+
+::placeholder{
+    font-size: 21px;
+}
+
+.inputbtn{
+    font-size: 21px;
+    font-family: 'Alfa Slab One', cursive;
+    background-color: rgba(191, 34, 34, 1);
+    border-radius: 10px;
+    color: white;
+    border: none;
+    width: 100%;
+
+}
+
+
+/**/
+.footer{
+    background-image: url(footback.png);
+    /* height: 525px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* margin: 50px; */
+    padding-top: 84px;
+    padding-left: 43px;
+
+}
+.parafooter{
+    font-family: 'montserrat';
+    color: white;
+    font-size: 17px;
+    padding-top: 48px;
+    /* padding-bottom: 148px; */
+}
+
+.rights{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 17px;
+    color: white;
+    font-weight: normal;
+    margin-top: 148px;
+}
+
+.foottext{
+    font-size: 21px;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    padding-top: 80px;
+    padding-left: 126px;
+}
+
+
+
+
+
+
+/**/
+
+@media only screen and (max-width:500px){
+
+    .section1{
+        height: 650px;
+    }
+    h2{
+        font-size: 12px;
+        width: 350px;
+        padding: 10px;
+    }
+    .fontchange1{
+        font-size: 70px;
+
+    }
+    .fontchange2{
+        font-size: 35px;
+    }
+
+    .img{
+      position: relative;
+      right: 45px;
+    }
+
+    .sectionback{
+        margin-bottom: 50px;
+    }
+    img.img.img-fluid.justify-content-center {
+        margin-top: -80px;
+    }
+  
+   }
